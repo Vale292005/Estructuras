@@ -10,13 +10,13 @@ public class MiConjunto<T> {
     public void add(T elemento) {
         conjunto.add(elemento);
     }
-
+    public boolean contains(T elemento) {
+        return conjunto.contains(elemento);
+    }
     public void remove(T elemento) {
         conjunto.remove(elemento);
     }
 
-    public boolean contains(T elemento) {
-        return conjunto.contains(elemento);
-    }
+
 }
 
