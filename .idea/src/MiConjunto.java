@@ -1,20 +1,20 @@
 import java.util.HashSet;
 
 public class MiConjunto<T> {
-    private HashSet<T> conjunto;
+    private HashSet<T> conjun;
 
     public MiConjunto() {
-        conjunto = new HashSet<>();
+        conjun = new HashSet<>();
     }
 
     public void add(T elemento) {
-        conjunto.add(elemento);
+        conjun.add(elemento);
     }
     public boolean contains(T elemento) {
-        return conjunto.contains(elemento);
+        return conjun.contains(elemento);
     }
     public void remove(T elemento) {
-        conjunto.remove(elemento);
+        conjun.remove(elemento);
     }
 
 
